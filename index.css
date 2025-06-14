@@ -1,0 +1,7 @@
+/* Basic CSS reset and body styles. You can expand this as needed. */
+body {
+  background-color: #e0e7ff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -140,18 +140,4 @@
       };
     }
   </script></body>
-</html>maxAlternatives = 1;
-
-      recognition.start();
-
-      recognition.onresult = function(event) {
-        document.getElementById("userInput").value = event.results[0][0].transcript;
-        sendMessage();
-      };
-
-      recognition.onerror = function(event) {
-        alert("Voice recognition error: " + event.error);
-      };
-    }
-  </script></body>
 </html>
